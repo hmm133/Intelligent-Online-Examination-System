@@ -1,0 +1,44 @@
+
+
+
+// sidebar - 青绿色主题
+$menuText: #ffffff;
+$menuActiveText: #1abc9c;
+$subMenuActiveText: #ffffff;
+
+$menuBg: #2c3e50;
+$menuHover: rgba(26, 188, 156, 0.15);
+
+$subMenuBg: #1a252f;
+$subMenuHover: rgba(26, 188, 156, 0.2);
+
+$sideBarWidth: 210px;
+
+// 青绿色主题扩展变量
+$primaryTeal: #1abc9c;
+$primaryTealDark: #16a085;
+$primaryTealLight: #48d5b5;
+$primaryTealGlow: rgba(26, 188, 156, 0.4);
+
+$navbarBg: #ffffff;
+$navbarShadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+$tagActiveBg: linear-gradient(135deg, #1abc9c 0%, #16a085 100%);
+$tagDefaultBg: #f5f7fa;
+$tagDefaultBorder: #e4e7ed;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+  primaryTeal: $primaryTeal;
+  primaryTealDark: $primaryTealDark;
+  primaryTealLight: $primaryTealLight;
+}

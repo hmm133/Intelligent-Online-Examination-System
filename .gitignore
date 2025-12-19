@@ -1,0 +1,14 @@
+# 前端通用忽略项（必加）
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.vscode/
+frontend/package-lock.json 
+
+# 本地无用文件（必加）
+*.log
+*.txt
+*.md  # 若有项目说明的README.md则不要加这行
+Redis-x64-3.0.504/
