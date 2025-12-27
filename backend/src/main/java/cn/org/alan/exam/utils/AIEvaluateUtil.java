@@ -56,6 +56,21 @@ public class AIEvaluateUtil {
         public Integer getScore() { return score; }
         public String getComment() { return comment; }
         public Double getConfidence() { return confidence; }
+
+        public void setScore(int i) {
+            // TODO Auto-generated method stub
+            throw new UnsupportedOperationException("Unimplemented method 'setScore'");
+        }
+
+        public void setComment(String string) {
+            // TODO Auto-generated method stub
+            throw new UnsupportedOperationException("Unimplemented method 'setComment'");
+        }
+
+        public void setConfidence(double d) {
+            // TODO Auto-generated method stub
+            throw new UnsupportedOperationException("Unimplemented method 'setConfidence'");
+        }
     }
 
     /**

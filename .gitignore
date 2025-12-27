@@ -12,3 +12,24 @@ frontend/package-lock.json
 *.txt
 *.md  # 若有项目说明的README.md则不要加这行
 Redis-x64-3.0.504/
+
+# 后端通用忽略项
+# 编译产物
+backend/target/
+
+# 日志文件
+backend/logs/
+
+# IDE配置
+backend_filetree.idea/
+backend/.vscode/
+backend/*.iml
+
+# 临时文件/本地记录
+backend/*.log
+backend/.env
+backend/.env.local
+
+# 其他无用文件
+*.gz
+*.tmp
