@@ -8,7 +8,7 @@ spring:
 
 ai:
   doubao:
-    api-key: c12d1b81-c9bf-48da-9d2d-3468637d2926
+    api-key: xxxxxxxxxxxxxxxxx
     api-url: https://ark.cn-beijing.volces.com/api/v3/chat/completions
     model: doubao-seed-1-6-251015
     timeout: 60
